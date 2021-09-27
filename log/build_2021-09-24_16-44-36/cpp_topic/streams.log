@@ -1,0 +1,33 @@
+[0.017s] Invoking command in '/home/dkosinov/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4
+[0.059s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[0.070s] [ 83%] Built target TIMER
+[0.070s] [ 83%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[0.071s] [ 83%] Built target cpp_pub_spiral
+[2.152s] [01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.152s] [01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:18:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.152s]    18 |     void topic_callback([01;35m[Kconst std_msgs::msg::String::SharedPtr msg[m[K) const
+[2.152s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[7.048s] [100%] [32m[1mLinking CXX executable cpp_sub_spiral[0m
+[7.393s] [100%] Built target cpp_sub_spiral
+[7.404s] Invoked command in '/home/dkosinov/ros2_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4
+[7.447s] Invoking command in '/home/dkosinov/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/dkosinov/ros2_ws/build/cpp_topic
+[7.455s] -- Install configuration: ""
+[7.455s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_pub_spiral
+[7.456s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_sub_spiral
+[7.459s] -- Set runtime path of "/home/dkosinov/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_sub_spiral" to ""
+[7.459s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic
+[7.460s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic
+[7.460s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh
+[7.460s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv
+[7.460s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/path.sh
+[7.460s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/path.dsv
+[7.460s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.bash
+[7.461s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.sh
+[7.461s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.zsh
+[7.461s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.dsv
+[7.461s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/package.dsv
+[7.461s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic
+[7.461s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake
+[7.461s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake
+[7.461s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/package.xml
+[7.464s] Invoked command in '/home/dkosinov/ros2_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/dkosinov/ros2_ws/build/cpp_topic

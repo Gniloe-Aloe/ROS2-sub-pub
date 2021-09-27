@@ -1,0 +1,2 @@
+Invoking command in '/home/dkosinov/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4
+Invoked command in '/home/dkosinov/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4

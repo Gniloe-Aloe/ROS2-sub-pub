@@ -1,0 +1,25 @@
+[0.016s] Invoking command in '/home/dkosinov/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4
+[0.079s] [100%] Built target cpp_sub_spiral
+[0.079s] [100%] Built target cpp_pub_spiral
+[0.079s] [100%] Built target TIMER
+[0.091s] Invoked command in '/home/dkosinov/ros2_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4
+[0.137s] Invoking command in '/home/dkosinov/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/dkosinov/ros2_ws/build/cpp_topic
+[0.146s] -- Install configuration: ""
+[0.146s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_pub_spiral
+[0.147s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_sub_spiral
+[0.147s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic
+[0.148s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic
+[0.148s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh
+[0.148s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv
+[0.148s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/path.sh
+[0.149s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/path.dsv
+[0.149s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.bash
+[0.149s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.sh
+[0.149s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.zsh
+[0.149s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.dsv
+[0.150s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/package.dsv
+[0.150s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic
+[0.150s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake
+[0.150s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake
+[0.150s] -- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/package.xml
+[0.153s] Invoked command in '/home/dkosinov/ros2_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/dkosinov/ros2_ws/build/cpp_topic

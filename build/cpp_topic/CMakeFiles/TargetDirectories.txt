@@ -1,0 +1,12 @@
+/home/dkosinov/ros2_ws/build/cpp_topic/CMakeFiles/install/local.dir
+/home/dkosinov/ros2_ws/build/cpp_topic/CMakeFiles/install.dir
+/home/dkosinov/ros2_ws/build/cpp_topic/CMakeFiles/list_install_components.dir
+/home/dkosinov/ros2_ws/build/cpp_topic/CMakeFiles/rebuild_cache.dir
+/home/dkosinov/ros2_ws/build/cpp_topic/CMakeFiles/edit_cache.dir
+/home/dkosinov/ros2_ws/build/cpp_topic/CMakeFiles/test.dir
+/home/dkosinov/ros2_ws/build/cpp_topic/CMakeFiles/TIMER.dir
+/home/dkosinov/ros2_ws/build/cpp_topic/CMakeFiles/cpp_sub_spiral.dir
+/home/dkosinov/ros2_ws/build/cpp_topic/CMakeFiles/install/strip.dir
+/home/dkosinov/ros2_ws/build/cpp_topic/CMakeFiles/cpp_pub_spiral.dir
+/home/dkosinov/ros2_ws/build/cpp_topic/CMakeFiles/cpp_topic_uninstall.dir
+/home/dkosinov/ros2_ws/build/cpp_topic/CMakeFiles/uninstall.dir

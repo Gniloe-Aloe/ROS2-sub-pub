@@ -1,0 +1,14 @@
+[0.017s] Invoking command in '/home/dkosinov/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4
+[0.060s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[0.070s] [ 33%] Built target TIMER
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[0.071s] [ 83%] Built target cpp_pub_spiral
+[2.078s] [01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.078s] [01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:23:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_string<char>[m[K’} has no member named ‘[01m[Klenth[m[K’; did you mean ‘[01m[Klength[m[K’?
+[2.078s]    23 |         std::cout << "Message get! " << "Lenth = " << tmp.[01;31m[Klenth[m[K() << std::endl;
+[2.079s]       |                                                           [01;31m[K^~~~~[m[K
+[2.079s]       |                                                           [32m[Klength[m[K
+[4.206s] make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+[4.206s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+[4.206s] make: *** [Makefile:141: all] Error 2
+[4.208s] Invoked command in '/home/dkosinov/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4

@@ -1,0 +1,8 @@
+[01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:23:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_string<char>[m[K’} has no member named ‘[01m[Klenth[m[K’; did you mean ‘[01m[Klength[m[K’?
+   23 |         std::cout << "Message get! " << "Lenth = " << tmp.[01;31m[Klenth[m[K() << std::endl;
+      |                                                           [01;31m[K^~~~~[m[K
+      |                                                           [32m[Klength[m[K
+make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

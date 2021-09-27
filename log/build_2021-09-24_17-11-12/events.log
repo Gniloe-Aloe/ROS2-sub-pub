@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000892] (cpp_topic) JobQueued: {'identifier': 'cpp_topic', 'dependencies': OrderedDict()}
+[0.000964] (cpp_topic) JobStarted: {'identifier': 'cpp_topic'}
+[0.012405] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'cmake'}
+[0.012902] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'build'}
+[0.014467] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dkosinov/ros2_ws/build/cpp_topic', '--', '-j4', '-l4'], 'cwd': '/home/dkosinov/ros2_ws/build/cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkosinov'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/cyclonedds-cxx/lib/:/opt/cyclonedds/lib/:/opt/opencv/lib:/opt/ros/galactic/lib'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('HOME', '/home/dkosinov'), ('OLDPWD', '/mnt/c/Users/test'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('CPLUS_INCLUDE_PATH', ':/opt/cyclonedds-cxx/include/:/opt/cyclonedds/include/:/opt/opencv/include/opencv4/include:/opt/ros/galactic/include'), ('_colcon_cd_root', '/home/dkosinov/ros2_install'), ('COLCON_PREFIX_PATH', '/home/dkosinov/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'dkosinov'), ('NAME', 'DESKTOP-6LU9C0B'), ('WSL_INTEROP', '/run/WSL/276972_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/test/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/test/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '77df59fa-6c3c-4d61-8984-9bae542e9e54'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/dkosinov/ros2_ws/install/cpp_topic:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/dkosinov/ros2_ws/build/cpp_topic'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dkosinov/ros2_ws/install/cpp_topic:/opt/ros/galactic'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.059180] (cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_pub_spiral\x1b[0m\n'}
+[0.069555] (cpp_topic) StdoutLine: {'line': b'[ 33%] Built target TIMER\n'}
+[0.069786] (cpp_topic) StdoutLine: {'line': b'[ 66%] Built target cpp_sub_spiral\n'}
+[0.070855] (cpp_topic) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o\x1b[0m\n'}
+[0.097740] (-) TimerEvent: {}
+[0.198162] (-) TimerEvent: {}
+[0.298587] (-) TimerEvent: {}
+[0.399032] (-) TimerEvent: {}
+[0.499447] (-) TimerEvent: {}
+[0.599880] (-) TimerEvent: {}
+[0.700345] (-) TimerEvent: {}
+[0.800755] (-) TimerEvent: {}
+[0.901131] (-) TimerEvent: {}
+[1.001560] (-) TimerEvent: {}
+[1.101970] (-) TimerEvent: {}
+[1.202354] (-) TimerEvent: {}
+[1.302767] (-) TimerEvent: {}
+[1.403137] (-) TimerEvent: {}
+[1.503567] (-) TimerEvent: {}
+[1.603974] (-) TimerEvent: {}
+[1.704362] (-) TimerEvent: {}
+[1.804763] (-) TimerEvent: {}
+[1.905146] (-) TimerEvent: {}
+[2.005581] (-) TimerEvent: {}
+[2.105987] (-) TimerEvent: {}
+[2.206395] (-) TimerEvent: {}
+[2.306799] (-) TimerEvent: {}
+[2.407215] (-) TimerEvent: {}
+[2.507627] (-) TimerEvent: {}
+[2.608025] (-) TimerEvent: {}
+[2.708395] (-) TimerEvent: {}
+[2.808843] (-) TimerEvent: {}
+[2.909232] (-) TimerEvent: {}
+[3.009637] (-) TimerEvent: {}
+[3.110047] (-) TimerEvent: {}
+[3.210459] (-) TimerEvent: {}
+[3.310859] (-) TimerEvent: {}
+[3.411272] (-) TimerEvent: {}
+[3.511671] (-) TimerEvent: {}
+[3.612076] (-) TimerEvent: {}
+[3.712539] (-) TimerEvent: {}
+[3.812943] (-) TimerEvent: {}
+[3.913414] (-) TimerEvent: {}
+[3.976732] (cpp_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_pub_spiral\x1b[0m\n'}
+[4.013573] (-) TimerEvent: {}
+[4.114064] (-) TimerEvent: {}
+[4.214421] (-) TimerEvent: {}
+[4.221621] (cpp_topic) StdoutLine: {'line': b'[100%] Built target cpp_pub_spiral\n'}
+[4.233655] (cpp_topic) CommandEnded: {'returncode': 0}
+[4.261673] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'install'}
+[4.273974] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dkosinov/ros2_ws/build/cpp_topic'], 'cwd': '/home/dkosinov/ros2_ws/build/cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkosinov'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/cyclonedds-cxx/lib/:/opt/cyclonedds/lib/:/opt/opencv/lib:/opt/ros/galactic/lib'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('HOME', '/home/dkosinov'), ('OLDPWD', '/mnt/c/Users/test'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('CPLUS_INCLUDE_PATH', ':/opt/cyclonedds-cxx/include/:/opt/cyclonedds/include/:/opt/opencv/include/opencv4/include:/opt/ros/galactic/include'), ('_colcon_cd_root', '/home/dkosinov/ros2_install'), ('COLCON_PREFIX_PATH', '/home/dkosinov/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'dkosinov'), ('NAME', 'DESKTOP-6LU9C0B'), ('WSL_INTEROP', '/run/WSL/276972_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/test/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/test/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '77df59fa-6c3c-4d61-8984-9bae542e9e54'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/dkosinov/ros2_ws/install/cpp_topic:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/dkosinov/ros2_ws/build/cpp_topic'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dkosinov/ros2_ws/install/cpp_topic:/opt/ros/galactic'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[4.282960] (cpp_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.283405] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_pub_spiral\n'}
+[4.284343] (cpp_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/dkosinov/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_pub_spiral" to ""\n'}
+[4.284586] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_sub_spiral\n'}
+[4.284941] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic\n'}
+[4.285204] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic\n'}
+[4.285544] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh\n'}
+[4.285786] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv\n'}
+[4.285978] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/path.sh\n'}
+[4.286104] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/path.dsv\n'}
+[4.286469] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.bash\n'}
+[4.286540] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.sh\n'}
+[4.286604] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.zsh\n'}
+[4.286666] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.dsv\n'}
+[4.286764] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/package.dsv\n'}
+[4.286829] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic\n'}
+[4.286891] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake\n'}
+[4.286953] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake\n'}
+[4.287042] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/package.xml\n'}
+[4.288612] (cpp_topic) CommandEnded: {'returncode': 0}
+[4.314605] (-) TimerEvent: {}
+[4.339263] (cpp_topic) JobEnded: {'identifier': 'cpp_topic', 'rc': 0}
+[4.340470] (-) EventReactorShutdown: {}

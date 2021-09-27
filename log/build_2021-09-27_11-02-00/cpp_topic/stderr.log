@@ -1,0 +1,62 @@
+[01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:48:5:[m[K [01;31m[Kerror: [m[Kcannot declare ‘[01m[K::main[m[K’ to be a global variable
+   48 | int [01;31m[Kmain[m[K {
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:50:16:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&)[m[K’
+   50 |   rclcpp::init([01;31m[K)[m[K;
+      |                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:6[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/utilities.hpp:56:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   56 | [01;36m[Kinit[m[K(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+      | [01;36m[K^~~~[m[K
+[01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:50:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[K;[m[K’ token
+   50 |   rclcpp::init()[01;31m[K;[m[K
+      |                 [01;31m[K^[m[K
+[01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:48:10:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   48 | int main [01;36m[K{[m[K
+      |          [01;36m[K^[m[K
+[01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:51:15:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+   51 |   rclcpp::spin[01;31m[K([m[Kstd::make_shared<MinimalPublisher>());
+      |               [01;31m[K^[m[K
+[01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:52:21:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+   52 |   rclcpp::shutdown()[01;31m[K;[m[K
+      |                     [01;31m[K^[m[K
+[01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:53:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+   53 |   [01;31m[Kreturn[m[K 0;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:54:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   54 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:33:16:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&)[m[K’
+   33 |   rclcpp::init([01;31m[K)[m[K;
+      |                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:3[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/utilities.hpp:56:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   56 | [01;36m[Kinit[m[K(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+      | [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/cpp_pub_spiral.dir/build.make:63: CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/cpp_pub_spiral.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

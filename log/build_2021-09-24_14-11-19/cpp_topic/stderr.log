@@ -1,0 +1,8 @@
+[01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kdds/dds.hpp: No such file or directory
+    5 | #include [01;31m[K"dds/dds.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

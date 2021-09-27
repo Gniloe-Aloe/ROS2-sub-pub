@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[ 33%] Built target TIMER
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[ 83%] Built target cpp_pub_spiral
+[100%] [32m[1mLinking CXX executable cpp_sub_spiral[0m

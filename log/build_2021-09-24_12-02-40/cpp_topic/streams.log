@@ -1,0 +1,84 @@
+[0.016s] Invoking command in '/home/dkosinov/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/dkosinov/ros2_ws/src/cpp_topic -DCMAKE_INSTALL_PREFIX=/home/dkosinov/ros2_ws/install/cpp_topic
+[0.140s] -- The C compiler identification is GNU 10.3.0
+[0.308s] -- The CXX compiler identification is GNU 10.3.0
+[0.382s] -- Check for working C compiler: /usr/bin/cc
+[0.499s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.500s] -- Detecting C compiler ABI info
+[0.619s] -- Detecting C compiler ABI info - done
+[0.632s] -- Detecting C compile features
+[0.632s] -- Detecting C compile features - done
+[0.635s] -- Check for working CXX compiler: /usr/bin/c++
+[0.761s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.762s] -- Detecting CXX compiler ABI info
+[0.887s] -- Detecting CXX compiler ABI info - done
+[0.902s] -- Detecting CXX compile features
+[0.902s] -- Detecting CXX compile features - done
+[0.904s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.930s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.930s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.006s] -- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.126s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.134s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.732s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.415s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.658s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.725s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.728s] -- Found rmw_cyclonedds_cpp: 0.22.3 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.750s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.751s] -- Looking for pthread.h
+[3.870s] -- Looking for pthread.h - found
+[3.871s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.988s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.988s] -- Looking for pthread_create in pthreads
+[4.096s] -- Looking for pthread_create in pthreads - not found
+[4.096s] -- Looking for pthread_create in pthread
+[4.212s] -- Looking for pthread_create in pthread - found
+[4.213s] -- Found Threads: TRUE  
+[4.379s] -- Found geometry_msgs: 2.2.3 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[4.420s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.493s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.494s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.494s] -- Configured cppcheck include dirs: 
+[4.494s] -- Configured cppcheck exclude dirs and/or files: 
+[4.495s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.495s] -- Configured cpplint exclude dirs and/or files: 
+[4.496s] -- Added test 'lint_cmake' to check CMake code style
+[4.497s] -- Added test 'uncrustify' to check C / C++ code style
+[4.497s] -- Configured uncrustify additional arguments: 
+[4.497s] -- Added test 'xmllint' to check XML markup files
+[4.500s] -- Configuring done
+[4.513s] -- Generating done
+[4.514s] -- Build files have been written to: /home/dkosinov/ros2_ws/build/cpp_topic
+[4.526s] Invoked command in '/home/dkosinov/ros2_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/dkosinov/ros2_ws/src/cpp_topic -DCMAKE_INSTALL_PREFIX=/home/dkosinov/ros2_ws/install/cpp_topic
+[4.530s] Invoking command in '/home/dkosinov/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4
+[4.570s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[4.570s] [35m[1mScanning dependencies of target cpp_pub_spiral[0m
+[4.581s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o[0m
+[4.581s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[8.867s] [ 75%] [32m[1mLinking CXX executable cpp_pub_spiral[0m
+[9.118s] [ 75%] Built target cpp_pub_spiral
+[12.017s] [100%] [32m[1mLinking CXX executable cpp_sub_spiral[0m
+[12.377s] [100%] Built target cpp_sub_spiral
+[12.389s] Invoked command in '/home/dkosinov/ros2_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4
+[12.429s] Invoking command in '/home/dkosinov/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/dkosinov/ros2_ws/build/cpp_topic
+[12.437s] -- Install configuration: ""
+[12.437s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_pub_spiral
+[12.439s] -- Set runtime path of "/home/dkosinov/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_pub_spiral" to ""
+[12.439s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_sub_spiral
+[12.441s] -- Set runtime path of "/home/dkosinov/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_sub_spiral" to ""
+[12.441s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic
+[12.442s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic
+[12.442s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh
+[12.443s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv
+[12.443s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/path.sh
+[12.443s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/environment/path.dsv
+[12.444s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.bash
+[12.444s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.sh
+[12.445s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.zsh
+[12.445s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.dsv
+[12.445s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/package.dsv
+[12.445s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic
+[12.446s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake
+[12.446s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake
+[12.446s] -- Installing: /home/dkosinov/ros2_ws/install/cpp_topic/share/cpp_topic/package.xml
+[12.448s] Invoked command in '/home/dkosinov/ros2_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/dkosinov/ros2_ws/build/cpp_topic

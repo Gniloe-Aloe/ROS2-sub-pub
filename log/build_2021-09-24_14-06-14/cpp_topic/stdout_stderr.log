@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[ 33%] Built target TIMER
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[ 83%] Built target cpp_pub_spiral
+[100%] [32m[1mLinking CXX executable cpp_sub_spiral[0m
+/usr/bin/ld: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o: in function `main':
+cpp_sub_spiral.cpp:(.text+0xb4): undefined reference to `timer::timer()'
+/usr/bin/ld: cpp_sub_spiral.cpp:(.text+0x221): undefined reference to `timer::~timer()'
+/usr/bin/ld: cpp_sub_spiral.cpp:(.text+0x2c9): undefined reference to `timer::~timer()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:137: cpp_sub_spiral] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

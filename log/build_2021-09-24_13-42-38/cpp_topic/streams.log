@@ -1,0 +1,12 @@
+[0.019s] Invoking command in '/home/dkosinov/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4
+[0.061s] [35m[1mScanning dependencies of target cpp_pub_spiral[0m
+[0.072s] [ 75%] [32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o[0m
+[0.072s] [ 75%] Built target cpp_sub_spiral
+[0.197s] [01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kdds/dds.hpp: No such file or directory
+[0.197s]     5 | #include [01;31m[K"dds/dds.hpp"[m[K
+[0.197s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[0.197s] compilation terminated.
+[0.200s] make[2]: *** [CMakeFiles/cpp_pub_spiral.dir/build.make:63: CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o] Error 1
+[0.200s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cpp_pub_spiral.dir/all] Error 2
+[0.201s] make: *** [Makefile:141: all] Error 2
+[0.204s] Invoked command in '/home/dkosinov/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4

@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.002301] (cpp_topic) JobQueued: {'identifier': 'cpp_topic', 'dependencies': OrderedDict()}
+[0.002420] (cpp_topic) JobStarted: {'identifier': 'cpp_topic'}
+[0.014143] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'cmake'}
+[0.014753] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'build'}
+[0.016379] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dkosinov/ros2_ws/build/cpp_topic', '--', '-j4', '-l4'], 'cwd': '/home/dkosinov/ros2_ws/build/cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkosinov'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/cyclonedds-cxx/lib/:/opt/cyclonedds/lib/:/opt/opencv/lib:/opt/ros/galactic/lib'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('HOME', '/home/dkosinov'), ('OLDPWD', '/mnt/c/Users/test'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('CPLUS_INCLUDE_PATH', ':/opt/cyclonedds-cxx/include/:/opt/cyclonedds/include/:/opt/opencv/include/opencv4/include:/opt/ros/galactic/include'), ('_colcon_cd_root', '/home/dkosinov/ros2_install'), ('COLCON_PREFIX_PATH', '/home/dkosinov/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'dkosinov'), ('NAME', 'DESKTOP-6LU9C0B'), ('WSL_INTEROP', '/run/WSL/276972_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/test/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/test/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '77df59fa-6c3c-4d61-8984-9bae542e9e54'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/dkosinov/ros2_ws/install/cpp_topic:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/dkosinov/ros2_ws/build/cpp_topic'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dkosinov/ros2_ws/install/cpp_topic:/opt/ros/galactic'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.062134] (cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_pub_spiral\x1b[0m\n'}
+[0.073615] (cpp_topic) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o\x1b[0m\n'}
+[0.073840] (cpp_topic) StdoutLine: {'line': b'[ 50%] Built target cpp_sub_spiral\n'}
+[0.075445] (cpp_topic) StdoutLine: {'line': b'[ 83%] Built target TIMER\n'}
+[0.099573] (-) TimerEvent: {}
+[0.200024] (-) TimerEvent: {}
+[0.300402] (-) TimerEvent: {}
+[0.400850] (-) TimerEvent: {}
+[0.501220] (-) TimerEvent: {}
+[0.601613] (-) TimerEvent: {}
+[0.701995] (-) TimerEvent: {}
+[0.802379] (-) TimerEvent: {}
+[0.902777] (-) TimerEvent: {}
+[1.003168] (-) TimerEvent: {}
+[1.103578] (-) TimerEvent: {}
+[1.204001] (-) TimerEvent: {}
+[1.304381] (-) TimerEvent: {}
+[1.404824] (-) TimerEvent: {}
+[1.505199] (-) TimerEvent: {}
+[1.605569] (-) TimerEvent: {}
+[1.706008] (-) TimerEvent: {}
+[1.806375] (-) TimerEvent: {}
+[1.906768] (-) TimerEvent: {}
+[2.007173] (-) TimerEvent: {}
+[2.062827] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.063238] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:29:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>::basic_string(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.064078] (cpp_topic) StderrLine: {'line': b'   29 |       std::string my_picture_message(5000000\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.064927] (cpp_topic) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.065012] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/10/string:55\x1b[m\x1b[K,\n'}
+[2.065081] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:4\x1b[m\x1b[K:\n'}
+[2.065151] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:650:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _Tp&, const _Alloc&) [with _Tp = _Tp; <template-parameter-2-2> = <template-parameter-1-2>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.065218] (cpp_topic) StderrLine: {'line': b'  650 |  \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(const _Tp& __t, const _Alloc& __a = _Alloc())\n'}
+[2.065279] (cpp_topic) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.065340] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:650:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.065414] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/10/ratio:39\x1b[m\x1b[K,\n'}
+[2.065481] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/10/chrono:39\x1b[m\x1b[K,\n'}
+[2.065548] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:1\x1b[m\x1b[K:\n'}
+[2.065614] (cpp_topic) StderrLine: {'line': b'/usr/include/c++/10/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.065681] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:117:8:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> template<class _Tp, class _Res> using _If_sv = std::enable_if_t<std::__and_<std::is_convertible<const _Tp&, std::basic_string_view<_CharT, _Traits> >, std::__not_<std::is_convertible<const _Tp*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>*> >, std::__not_<std::is_convertible<const _Tp&, const _CharT*> > >::value, _Res> [with _Tp = int; _Res = void; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.065796] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:648:30:\x1b[m\x1b[K   required from here\n'}
+[2.065865] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/type_traits:2554:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.065928] (cpp_topic) StderrLine: {'line': b' 2554 |     using \x1b[01;31m\x1b[Kenable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[2.065987] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.066046] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/10/string:55\x1b[m\x1b[K,\n'}
+[2.066105] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:4\x1b[m\x1b[K:\n'}
+[2.066164] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:639:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _Tp&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _Tp = _Tp; <template-parameter-2-2> = <template-parameter-1-2>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.066228] (cpp_topic) StderrLine: {'line': b'  639 |  \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(const _Tp& __t, size_type __pos, size_type __n,\n'}
+[2.066293] (cpp_topic) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.066353] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:639:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.066413] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:29:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[2.066474] (cpp_topic) StderrLine: {'line': b'   29 |       std::string my_picture_message(5000000\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.066537] (cpp_topic) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.066596] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/10/string:55\x1b[m\x1b[K,\n'}
+[2.066653] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:4\x1b[m\x1b[K:\n'}
+[2.066716] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:625:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _InputIterator, class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(_InputIterator, _InputIterator, const _Alloc&) [with _InputIterator = _InputIterator; <template-parameter-2-2> = <template-parameter-1-2>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.066807] (cpp_topic) StderrLine: {'line': b'  625 |         \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(_InputIterator __beg, _InputIterator __end,\n'}
+[2.066874] (cpp_topic) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.066932] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:625:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.066991] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:29:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[2.067050] (cpp_topic) StderrLine: {'line': b'   29 |       std::string my_picture_message(5000000\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.067109] (cpp_topic) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.067168] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/10/string:55\x1b[m\x1b[K,\n'}
+[2.067227] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:4\x1b[m\x1b[K:\n'}
+[2.067285] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:587:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.067346] (cpp_topic) StderrLine: {'line': b'  587 |       \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(basic_string&& __str, const _Alloc& __a)\n'}
+[2.067405] (cpp_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.067463] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:587:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[2.067522] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:583:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.067584] (cpp_topic) StderrLine: {'line': b'  583 |       \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(const basic_string& __str, const _Alloc& __a)\n'}
+[2.067641] (cpp_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.067699] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:583:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[2.067788] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:579:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::initializer_list<_Tp>, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.067857] (cpp_topic) StderrLine: {'line': b'  579 |       \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(initializer_list<_CharT> __l, const _Alloc& __a = _Alloc())\n'}
+[2.067917] (cpp_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.067976] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:579:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<char>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.068062] (cpp_topic) StderrLine: {'line': b'  579 |       basic_string(\x1b[01;36m\x1b[Kinitializer_list<_CharT> __l\x1b[m\x1b[K, const _Alloc& __a = _Alloc())\n'}
+[2.068134] (cpp_topic) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.068197] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:552:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.068261] (cpp_topic) StderrLine: {'line': b'  552 |       \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(basic_string&& __str) noexcept\n'}
+[2.068320] (cpp_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.068378] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:552:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.068442] (cpp_topic) StderrLine: {'line': b'  552 |       basic_string(\x1b[01;36m\x1b[Kbasic_string&& __str\x1b[m\x1b[K) noexcept\n'}
+[2.068501] (cpp_topic) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.068560] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:540:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, _CharT, const _Alloc&) [with <template-parameter-2-1> = <template-parameter-1-1>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.068627] (cpp_topic) StderrLine: {'line': b'  540 |       \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(size_type __n, _CharT __c, const _Alloc& __a = _Alloc())\n'}
+[2.068687] (cpp_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.068766] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:540:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.068852] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:29:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[2.068928] (cpp_topic) StderrLine: {'line': b'   29 |       std::string my_picture_message(5000000\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.068987] (cpp_topic) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.069046] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/10/string:55\x1b[m\x1b[K,\n'}
+[2.069104] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:4\x1b[m\x1b[K:\n'}
+[2.069163] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:525:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with <template-parameter-2-1> = <template-parameter-1-1>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.069230] (cpp_topic) StderrLine: {'line': b'  525 |       \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(const _CharT* __s, const _Alloc& __a = _Alloc())\n'}
+[2.069304] (cpp_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.069364] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:525:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.069430] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:29:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K5000000\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.069533] (cpp_topic) StderrLine: {'line': b'   29 |       std::string my_picture_message(\x1b[01;36m\x1b[K5000000\x1b[m\x1b[K);\n'}
+[2.069592] (cpp_topic) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.069651] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/10/string:55\x1b[m\x1b[K,\n'}
+[2.069709] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:4\x1b[m\x1b[K:\n'}
+[2.069799] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:510:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.069868] (cpp_topic) StderrLine: {'line': b'  510 |       \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(const _CharT* __s, size_type __n,\n'}
+[2.069929] (cpp_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.069989] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:510:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[2.070083] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:492:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.070149] (cpp_topic) StderrLine: {'line': b'  492 |       \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(const basic_string& __str, size_type __pos,\n'}
+[2.070210] (cpp_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.070269] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:492:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[2.070328] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:476:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.070403] (cpp_topic) StderrLine: {'line': b'  476 |       \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(const basic_string& __str, size_type __pos,\n'}
+[2.070562] (cpp_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.070626] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:476:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[2.070692] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:461:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.070784] (cpp_topic) StderrLine: {'line': b'  461 |       \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(const basic_string& __str, size_type __pos,\n'}
+[2.070850] (cpp_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.070910] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:461:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[2.070970] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:448:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.071032] (cpp_topic) StderrLine: {'line': b'  448 |       \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(const basic_string& __str)\n'}
+[2.071090] (cpp_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.071148] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:448:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.071208] (cpp_topic) StderrLine: {'line': b'  448 |       basic_string(\x1b[01;36m\x1b[Kconst basic_string& __str\x1b[m\x1b[K)\n'}
+[2.071267] (cpp_topic) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.071327] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:440:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.071388] (cpp_topic) StderrLine: {'line': b'  440 |       \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(const _Alloc& __a) _GLIBCXX_NOEXCEPT\n'}
+[2.071446] (cpp_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.071504] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:440:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<char>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.071564] (cpp_topic) StderrLine: {'line': b'  440 |       basic_string(\x1b[01;36m\x1b[Kconst _Alloc& __a\x1b[m\x1b[K) _GLIBCXX_NOEXCEPT\n'}
+[2.071627] (cpp_topic) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.071686] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:431:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string() [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.071774] (cpp_topic) StderrLine: {'line': b'  431 |       \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K()\n'}
+[2.071843] (cpp_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.071902] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:431:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.071962] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:145:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::__sv_wrapper, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.072023] (cpp_topic) StderrLine: {'line': b'  145 |       \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(__sv_wrapper __svw, const _Alloc& __a)\n'}
+[2.072081] (cpp_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.072138] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/basic_string.h:145:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[2.107348] (-) TimerEvent: {}
+[2.207759] (-) TimerEvent: {}
+[2.308139] (-) TimerEvent: {}
+[2.408542] (-) TimerEvent: {}
+[2.508920] (-) TimerEvent: {}
+[2.609304] (-) TimerEvent: {}
+[2.709675] (-) TimerEvent: {}
+[2.810093] (-) TimerEvent: {}
+[2.910476] (-) TimerEvent: {}
+[2.936916] (cpp_topic) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cpp_pub_spiral.dir/build.make:63: CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o] Error 1\n'}
+[2.937439] (cpp_topic) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/cpp_pub_spiral.dir/all] Error 2\n'}
+[2.937563] (cpp_topic) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.939890] (cpp_topic) CommandEnded: {'returncode': 2}
+[2.983186] (cpp_topic) JobEnded: {'identifier': 'cpp_topic', 'rc': 2}
+[2.994748] (-) EventReactorShutdown: {}

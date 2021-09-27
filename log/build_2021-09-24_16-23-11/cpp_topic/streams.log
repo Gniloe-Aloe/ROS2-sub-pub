@@ -1,0 +1,20 @@
+[0.016s] Invoking command in '/home/dkosinov/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4
+[0.061s] [35m[1mScanning dependencies of target cpp_pub_spiral[0m
+[0.071s] [ 33%] Built target TIMER
+[0.072s] [ 66%] [32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o[0m
+[0.072s] [ 83%] Built target cpp_sub_spiral
+[2.007s] [01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.007s] [01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:30:38:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.007s]    30 |         my_picture_message.push_back([01;31m[K"0"[m[K);
+[2.007s]       |                                      [01;31m[K^~~[m[K
+[2.007s]       |                                      [01;31m[K|[m[K
+[2.007s]       |                                      [01;31m[Kconst char*[m[K
+[2.007s] In file included from [01m[K/usr/include/c++/10/string:55[m[K,
+[2.007s]                  from [01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:4[m[K:
+[2.008s] [01m[K/usr/include/c++/10/bits/basic_string.h:1320:24:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::push_back(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[2.008s]  1320 |       push_back([01;36m[K_CharT __c[m[K)
+[2.008s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[2.885s] make[2]: *** [CMakeFiles/cpp_pub_spiral.dir/build.make:63: CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o] Error 1
+[2.885s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/cpp_pub_spiral.dir/all] Error 2
+[2.886s] make: *** [Makefile:141: all] Error 2
+[2.888s] Invoked command in '/home/dkosinov/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4

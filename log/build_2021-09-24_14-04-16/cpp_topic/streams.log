@@ -1,0 +1,43 @@
+[0.020s] Invoking command in '/home/dkosinov/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4
+[0.047s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.069s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.132s] -- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.238s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.537s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.539s] -- Found rmw_cyclonedds_cpp: 0.22.3 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.559s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.708s] -- Found geometry_msgs: 2.2.3 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[2.746s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.811s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.812s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.812s] -- Configured cppcheck include dirs: 
+[2.812s] -- Configured cppcheck exclude dirs and/or files: 
+[2.813s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.813s] -- Configured cpplint exclude dirs and/or files: 
+[2.813s] -- Added test 'lint_cmake' to check CMake code style
+[2.814s] -- Added test 'uncrustify' to check C / C++ code style
+[2.814s] -- Configured uncrustify additional arguments: 
+[2.814s] -- Added test 'xmllint' to check XML markup files
+[2.817s] -- Configuring done
+[2.831s] -- Generating done
+[2.834s] -- Build files have been written to: /home/dkosinov/ros2_ws/build/cpp_topic
+[2.860s] [35m[1mScanning dependencies of target TIMER[0m
+[2.860s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[2.871s] [ 16%] [32mBuilding CXX object CMakeFiles/TIMER.dir/src/timer.cpp.o[0m
+[2.871s] [ 33%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[3.158s] [ 50%] [32m[1mLinking CXX static library libTIMER.a[0m
+[3.192s] [ 50%] Built target TIMER
+[3.203s] [35m[1mScanning dependencies of target cpp_pub_spiral[0m
+[3.215s] [ 66%] [32m[1mLinking CXX executable cpp_pub_spiral[0m
+[3.478s] [ 83%] Built target cpp_pub_spiral
+[5.006s] [01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.006s] [01m[K/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:27:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ was not declared in this scope; did you mean ‘[01m[Ktime[m[K’?
+[5.006s]    27 |   [01;31m[Ktimer[m[K t;
+[5.006s]       |   [01;31m[K^~~~~[m[K
+[5.006s]       |   [32m[Ktime[m[K
+[7.151s] make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+[7.151s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+[7.151s] make: *** [Makefile:141: all] Error 2
+[7.153s] Invoked command in '/home/dkosinov/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4

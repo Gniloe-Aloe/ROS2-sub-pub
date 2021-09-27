@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dkosinov/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp
+chrono
+-
+functional
+-
+memory
+-
+string
+-
+rclcpp/rclcpp.hpp
+/home/dkosinov/ros2_ws/src/cpp_topic/src/rclcpp/rclcpp.hpp
+std_msgs/msg/string.hpp
+/home/dkosinov/ros2_ws/src/cpp_topic/src/std_msgs/msg/string.hpp
+

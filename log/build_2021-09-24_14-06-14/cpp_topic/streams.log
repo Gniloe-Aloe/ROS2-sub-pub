@@ -1,0 +1,15 @@
+[0.016s] Invoking command in '/home/dkosinov/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4
+[0.058s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[0.069s] [ 33%] Built target TIMER
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[0.092s] [ 83%] Built target cpp_pub_spiral
+[7.017s] [100%] [32m[1mLinking CXX executable cpp_sub_spiral[0m
+[7.330s] /usr/bin/ld: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o: in function `main':
+[7.330s] cpp_sub_spiral.cpp:(.text+0xb4): undefined reference to `timer::timer()'
+[7.331s] /usr/bin/ld: cpp_sub_spiral.cpp:(.text+0x221): undefined reference to `timer::~timer()'
+[7.331s] /usr/bin/ld: cpp_sub_spiral.cpp:(.text+0x2c9): undefined reference to `timer::~timer()'
+[7.365s] collect2: error: ld returned 1 exit status
+[7.367s] make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:137: cpp_sub_spiral] Error 1
+[7.367s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+[7.367s] make: *** [Makefile:141: all] Error 2
+[7.371s] Invoked command in '/home/dkosinov/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dkosinov/ros2_ws/build/cpp_topic -- -j4 -l4
